@@ -5,7 +5,7 @@
 주간 시간대(9 ~ 18시) 신고 접수량 예측  
 시계열 예측(time series prediction) | 평가지표 : MAPE(Mean Absolute Percentage Error)  
 
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/call.png' width='300>
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/call.png' width='300'>
 
 ## 데이터 상세
 Input  
