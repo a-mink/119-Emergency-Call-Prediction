@@ -39,18 +39,17 @@ Public&Private Test Data
 
 #### * 실제 검증   
 '안내:general', '출동:urgent'로 표시  
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%E1%84%82%E1%85%A1%E1%86%AF%E1%84%8D%E1%85%A1%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%B5%E1%86%AB%E1%84%80%E1%85%B3%E1%86%B8%3A%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3.png' width ='600'>
 <전체기간 접수분류 별 신고접수 건수>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%E1%84%82%E1%85%A1%E1%86%AF%E1%84%8D%E1%85%A1%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%B5%E1%86%AB%E1%84%80%E1%85%B3%E1%86%B8%3A%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3.png' width ='600'>
 
 전체 기간의 접수 분류 별 신고접수 건수를 <seaborn> 라이브러리를 사용해 lineplot으로 시각화해본 결과,  
 '출동' 접수(urgent)의 경우, 가설 대로 일자별 쏠림 현상 등이 없이 일정한 추세를 보이는 것을 확인할 수 있었다.
 
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/2013_%E1%84%82%E1%85%A1%E1%86%AF%E1%84%8D%E1%85%A1%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%B5%E1%86%AB%E1%84%80%E1%85%B3%E1%86%B8%3A%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3.png' width='600'>
 <2013년 접수분류 별 신고접수 건수>  
-  
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/2013_1%E1%84%87%E1%85%AE%E1%86%AB%E1%84%80%E1%85%B5_%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%AE%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%89%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%AE%20%E1%84%80%E1%85%A5%E1%86%AB%E1%84%89%E1%85%AE.png' width='600'>
-<2013년도 1분기 접수분류 별 신고접수 건수>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/2013_%E1%84%82%E1%85%A1%E1%86%AF%E1%84%8D%E1%85%A1%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%80%E1%85%B5%E1%86%AB%E1%84%80%E1%85%B3%E1%86%B8%3A%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3.png' width='600'>
 
+<2013년도 1분기 접수분류 별 신고접수 건수>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/2013_1%E1%84%87%E1%85%AE%E1%86%AB%E1%84%80%E1%85%B5_%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%AE%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%89%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%AE%20%E1%84%80%E1%85%A5%E1%86%AB%E1%84%89%E1%85%AE.png' width='600'>  
 
 '안내' 접수의 가설도 검증해 보기 위해 2013년/2013년 1분기의 데이터를 lineplot으로 구현했다.  
 주말을 기점으로 안내 문의(general)가 증가한다는 것 뿐만 아니라, 연휴를 기점으로 안내 문의가 증가한다는 것을 알 수 있었다.  
