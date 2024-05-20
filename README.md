@@ -65,6 +65,7 @@ Public&Private Test Data
   
 ## 데이터 ML 구축 계획  
 <전체/주간/야간 신고접수건수 공분산(상관관계)>  
-<img src='' width='300'>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/main/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-05-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.29.24.png' width='300'>  
+
 
 
