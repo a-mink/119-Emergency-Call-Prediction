@@ -88,7 +88,12 @@ Public&Private Test Data
 '야간'데이터로 '전체' 데이터 예측 한 후, '전체'-'야간'으로 '주간' 계산하는 방법도 실험해볼 예정.  <br> 
 또한, 회귀 분석 방법으로 예측 성능이 높게 나오지 않을 경우 시계열 분석 방법을 적용해볼 예정.<br>
 <br>
-#### <실험 시나리오>
+#### <실험 시나리오>  
 
-<img src='' width='600'>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-26%20191455.png' width='600'>  
+주간예측(접수 분류 -> 공휴일) -> 전체예측 순으로 실험을 진행해 나가면서 효과적인 모델 위주로 다른 특성들을 비교해 볼 것이다. <br>
+<br>
+<br>
+## 실험 결과
+https://docs.google.com/spreadsheets/d/1cnYM3xNX3oIpbkp9LfIJ82vYARcGur9_1vplJZ-3Cwo/edit?usp=sharing
 
