@@ -90,7 +90,7 @@ Public&Private Test Data
 <br>
 #### <실험 시나리오>  
 
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-26%20191455.png' width='600'>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-26%20191455.png' width='350'>  
 주간예측(접수 분류 -> 공휴일) -> 전체예측 순으로 실험을 진행해 나가면서 효과적인 모델 위주로 다른 특성들을 비교해 볼 것이다. <br>
 <br>
 <br>
