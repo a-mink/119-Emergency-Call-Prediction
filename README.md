@@ -98,7 +98,7 @@ ML모델 : XGB Regressor/CATboost Regressor<br>
 <br>
 
 ## 실험 결과 요약  
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-05-27%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.47.01.png' width='400'>  <br>
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-05-27%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.47.01.png' width='600'>  <br>
 <br>
 - 예측 결과 MAPE : 8.2630 /참여자 MAPE 평균 : 11.6572<br>
 - 접수 분류/공휴일 고려시 예측 성능 향상.(약 4점/1점)<br>
@@ -109,12 +109,12 @@ ML모델 : XGB Regressor/CATboost Regressor<br>
 https://docs.google.com/spreadsheets/d/1cnYM3xNX3oIpbkp9LfIJ82vYARcGur9_1vplJZ-3Cwo/edit?usp=sharing
 <br>
 
-## 개선할 부분
+## 개선할 부분  
 - 코드 개선(사용자 입력, 중복, 결과 저장)<br>
 - 이름 명확하게 규칙 정하기(실험명/데이터 결과명)<br>
 - ML 원리 학습 : 해당 결과값이 도출된 이유를 추정하지 못한 경우 다수<br>
 - ML 기법 학습 : PCA분석 및 다양한 분석 기법 학습 필요<br>
 <br>
 
-## 잘한 부분
+## 잘한 부분  
 - 데이터에 대한 이해 : PCA분석 없이 EDA에서 추론한 특성만으로 정확도 높은 예측 가능했음.
