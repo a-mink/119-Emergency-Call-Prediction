@@ -91,7 +91,7 @@ Public&Private Test Data
 
 #### <실험 시나리오 및 실험 모델>  
 
-<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-26%20191455.png' width='350'>  
+<img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202024-05-26%20191455.png' width='400'>  
 주간예측(접수 분류 -> 공휴일) -> 전체예측 순으로 실험을 진행해 나가면서 효과적인 모델 위주로 다른 특성들을 비교해 볼 예정 <br>
 ML모델 : XGB Regressor/CATboost Regressor<br>
 하이퍼파라미터 방법 : GridSearch CV <br>
@@ -100,7 +100,7 @@ ML모델 : XGB Regressor/CATboost Regressor<br>
 ## 실험 결과 요약  
 <img src='https://github.com/a-mink/119-Emergency-Call-Prediction/blob/source/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-05-27%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.47.01.png' width='600'>  <br>
 <br>
-- 예측 결과 MAPE : 8.2630 /참여자 MAPE 평균 : 11.6572<br>
+- 예측 결과 MAPE : 8.2630 / 참여자 MAPE 평균 : 11.6572<br>
 - 접수 분류/공휴일 고려시 예측 성능 향상.(약 4점/1점)<br>
 - 전체 예측하는 것보다 주간을 예측하는 것이 예측 성능 높음.(약 2점)<br>
 - XGB 모델보다 CAT 모델의 예측 성능이 높게 나옴.(GridSearch적용 기준)(약 1점)<br>
